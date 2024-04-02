@@ -9,13 +9,15 @@
  * comment
 */
 
+import java.util.Random;
+
 /**
  * this program is for demonstration of basic java
  * OOP principle
  * @author Marc Yim
  */
 public class Main{
-    public static void main(String[] args) {
+    public static void main(String[] dfgdfgdfg) {
         Plant plant1 = new Plant();
         plant1.numberOfLeaves = 10;
         plant1.numberOfStem = 2;
@@ -24,6 +26,10 @@ public class Main{
 
         plant1.addNumberOfLeaves();
         System.out.println("number of leaves:"+plant1.numberOfLeaves);
+        // System.out.println("Hello " +dfgdfgdfg[1] + ", Welcome to Java Class");
+        System.out.println("Hello " + ", Welcome to Java Class");
+        Random r = new Random();
+        System.out.println(r.nextInt(10));
     }
 
 }
@@ -44,4 +50,9 @@ class Plant{
         numberOfLeaves++;
 
     }
+    public static void main(String[] args) {
+        System.out.println("Plant class is running");
+    }
+
 }
+

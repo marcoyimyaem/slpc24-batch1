@@ -6,10 +6,16 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PackageSample",
+            "request": "launch",
+            "mainClass": "forimport.PackageSample",
+            "projectName": "slpc24-batch1_523d82f4"
+        },
+        {
+            "type": "java",
             "name": "Launch with Arguments Prompt",
             "request": "launch",
             "mainClass": "",
-            // "args": "${command:SpecifyProgramArgs}"
             "args": "${command:SpecifyProgramArgs}"
         },
         {

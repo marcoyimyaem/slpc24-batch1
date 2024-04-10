@@ -22,13 +22,19 @@ import forimport.*;
  * @author Marc Yim
  */
 public class Main{
+    static int edad = 3;
+    Main(){
+        System.out.println("Main constructor is called");
+    }
+    {System.out.println("this is instance ini block 1"); }
     public static void main(String[] dfgdfgdfg) {
+        Main m1 = new Main();
         Plant plant1 = new Plant();
-        plant1.numberOfLeaves = 10;
-        plant1.numberOfStem = 2;
+        // plant1.numberOfLeaves = 10;
+        // plant1.numberOfStem = 2;
         System.out.println("number of leaves:"+plant1.numberOfLeaves);
         System.out.println("number of stem:"+plant1.numberOfStem);
-
+        
         plant1.addNumberOfLeaves();
         System.out.println("number of leaves:"+plant1.numberOfLeaves);
         // System.out.println("Hello " +dfgdfgdfg[1] + ", Welcome to Java Class");
@@ -37,14 +43,34 @@ public class Main{
         System.out.println(r.nextInt(10));
         PackageSample ps1 = new PackageSample();
         PackageSample2 ps2 = new PackageSample2();
-        
+        { System.out.println("ini block inside the method");}
         System.out.println(ps1.msg);
         Plant p2Plant = new Plant();
         // Plant p3Plant = new Plant(300,50);
-        
-        
+        Name n1 = new Name();
+        Name n2 = new Name();
+        Name n3 = null;
+        n1 = null;
+        n1.last = "Lopez";
+        // n1.full = n1.first+n1.last;
+        System.out.println(n1.full); // show fullname?
+        System.err.println(n1.last);
+        System.err.println(n2.last);
+        System.out.println("Class var: "+(19+getEdad()));
+        System.gc();
+        System.out.println("garbage collected");
+        int xx = 1;
     }
-
+    void callMe(){
+        Name n4 = new Name();
+        System.out.println("Call me"+edad);
+    }
+    
+    static int getEdad(){
+        return edad;
+    }
+    {System.out.println("this is instance ini block 2"); }
+    {callMe();}
 }
 
 /**
@@ -74,5 +100,12 @@ class Plant{
         System.out.println("Plant class is running");
     }
 
+}
+
+class Name{
+     String first = "Marc";
+     String last = "Yim";
+     String full = first+last;
+    
 }
 

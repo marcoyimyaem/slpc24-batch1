@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ConditionalFlow",
+            "request": "launch",
+            "mainClass": "chapter2.l2.ConditionalFlow",
+            "projectName": "slpc24-batch1_523d82f4"
+        },
+        {
+            "type": "java",
+            "name": "JavaOperator",
+            "request": "launch",
+            "mainClass": "chapter2.l1.JavaOperator",
+            "projectName": "slpc24-batch1_523d82f4"
+        },
+        {
+            "type": "java",
             "name": "PackageSample",
             "request": "launch",
             "mainClass": "forimport.PackageSample",

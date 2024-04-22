@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DateAndTimeL",
+            "request": "launch",
+            "mainClass": "chapter3.topic4.DateAndTimeL",
+            "projectName": "slpc24-batch1_523d82f4"
+        },
+        {
+            "type": "java",
+            "name": "StringBuilderL",
+            "request": "launch",
+            "mainClass": "chapter3.topic2.StringBuilderL",
+            "projectName": "slpc24-batch1_523d82f4"
+        },
+        {
+            "type": "java",
+            "name": "StringL",
+            "request": "launch",
+            "mainClass": "chapter3.topic1.StringL",
+            "projectName": "slpc24-batch1_523d82f4"
+        },
+        {
+            "type": "java",
             "name": "ConditionalFlow",
             "request": "launch",
             "mainClass": "chapter2.l2.ConditionalFlow",

@@ -1,5 +1,6 @@
 package chapter3.topic4;
 import java.time.*;
+import java.util.ArrayList;
 import java.util.Scanner;
 public class DateAndTimeL {
     public static void main(String[] args) {
@@ -44,5 +45,21 @@ public class DateAndTimeL {
         System.out.println(time3);
         //LocalDateTime - plus,minus - Days,Month,Year,Hours,Minutes,Seconds,Nanos
         System.out.println(Month.FEBRUARY.maxLength());
+        // char[] c  = new char[2];
+        // int length = c.length;
+        ArrayList l = new ArrayList();
+        int length = l.size();
+        l.remove(0);
+        
+
     }
 }
+// class Array{
+//     int length;
+//     Array(int size){
+//         this.length = size;
+//     }
+//     public int length(){
+//         return this.length;
+//     }
+// }

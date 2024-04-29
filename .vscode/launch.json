@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "OverloadingMethL",
+            "request": "launch",
+            "mainClass": "chapter4.topic4.OverloadingMethL",
+            "projectName": "slpc24-batch1_523d82f4"
+        },
+        {
+            "type": "java",
+            "name": "StaticMethVar",
+            "request": "launch",
+            "mainClass": "chapter4.topic3.StaticMethVar",
+            "projectName": "slpc24-batch1_523d82f4"
+        },
+        {
+            "type": "java",
+            "name": "VarArgs",
+            "request": "launch",
+            "mainClass": "chapter4.topic2.VarArgs",
+            "projectName": "slpc24-batch1_523d82f4"
+        },
+        {
+            "type": "java",
             "name": "DateAndTimeL",
             "request": "launch",
             "mainClass": "chapter3.topic4.DateAndTimeL",

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LamdasL",
+            "request": "launch",
+            "mainClass": "chapter4.topic6.LamdasL",
+            "projectName": "slpc24-batch1_523d82f4"
+        },
+        {
+            "type": "java",
             "name": "EncapsulationL",
             "request": "launch",
             "mainClass": "chapter4.topic5.EncapsulationL",

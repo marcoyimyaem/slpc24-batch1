@@ -1,7 +1,8 @@
 package chapter4.topic6;
 import java.util.*;
+
 public class LamdasL {
-    static void print(List<Animal> animals, CheckTrait checker){
+    static void print(List<Animal> animals, Predicate<Animal> checker){
         for(Animal animal:animals){
             if(checker.test(animal))
                 System.out.print(animal+" ");
@@ -60,9 +61,9 @@ class Animal{
 }
 
 
-interface CheckTrait{
-    boolean test(Animal a);
-}
+// interface CheckTrait{
+//     boolean test(Animal a);
+// }
 // class CheckIfHopper implements CheckTrait{
 //     @Override
 //     public boolean test(Animal a){

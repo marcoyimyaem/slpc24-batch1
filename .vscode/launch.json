@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InheritanceL",
+            "request": "launch",
+            "mainClass": "chapter5.topic1.InheritanceL",
+            "projectName": "slpc24-batch1_caaf9ce2"
+        },
+        {
+            "type": "java",
             "name": "LamdasL",
             "request": "launch",
             "mainClass": "chapter4.topic6.LamdasL",

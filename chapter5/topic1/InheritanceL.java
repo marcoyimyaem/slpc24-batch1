@@ -1,15 +1,12 @@
 package chapter5.topic1;
 import java.util.Objects;
-
 public class InheritanceL {
     public static void main(String[] args) {
         Aspi dog1 = new Aspi(2, "Bogat", 8, 4, 13, "Baseco st.");
     }
 }
-
 // final class Animal - can not extend
 class Animal{
-
     public Animal(int age, String name) {
         this.age = age;
         this.name = name;
@@ -17,7 +14,6 @@ class Animal{
     private int age;
     private String name;
 }
-
 class Mammal extends Animal{
 
     public Mammal(int age, String name,int numberOfNips) {
@@ -26,7 +22,6 @@ class Mammal extends Animal{
     }
     private int numberOfNips;
 }
-
 class Canine extends Mammal{
 
     public Canine(int age, String name,int numberOfNips,int numOfTeeth, int weight) {
@@ -37,13 +32,19 @@ class Canine extends Mammal{
     private int numOfTeeth;
     private int weight;
 }
-class Aspi extends Canine{
+class Aspi extends Canine implments CanSwim{
     String address;
     public Aspi(int age, String name,int numberOfNips,int numOfTeeth, int weight,String address) {
-
-    
         super(age,name,numberOfNips,numOfTeeth,weight);
         this.address = address;
     }
    
+}
+
+abstract interface CanSwim{
+    public static final int SPEED = 10;
+    public static final int DEPTH = 5;
+    public abstract int getSPEED();
+    public abstract int getDEPTH();
+    
 }

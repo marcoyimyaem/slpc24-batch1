@@ -9,6 +9,13 @@
             "name": "InheritanceL",
             "request": "launch",
             "mainClass": "chapter5.topic1.InheritanceL",
+            "projectName": "slpc24-batch1_523d82f4"
+        },
+        {
+            "type": "java",
+            "name": "InheritanceL",
+            "request": "launch",
+            "mainClass": "chapter5.topic1.InheritanceL",
             "projectName": "slpc24-batch1_caaf9ce2"
         },
         {

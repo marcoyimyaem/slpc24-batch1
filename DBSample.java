@@ -1,10 +1,10 @@
 import java.sql.*;
 import java.util.*;
 
-public class DBSample {
-    private static String url= "jdbc:mysql://localhost:3306/students";
+public class DBSample {    
+    private static String url= "jdbc:mysql://localhost:3306/Students";
     private static String dbuser ="root";
-    private static String users="select * from users";
+    private static String users="select * from Users";
     private static String dbpw ="";
     public static void main(String[] args){
         showAllStudent();
@@ -33,6 +33,7 @@ public class DBSample {
     }
     static void showAllStudent(){
         try{
+
 
             Connection con= DriverManager.getConnection(url,dbuser,dbpw);
             Statement stmt=con.createStatement();

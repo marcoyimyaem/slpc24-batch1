@@ -9,7 +9,7 @@ public class AnotherPackageSample extends AccessModifL {
         bagon.method1();
         pagong.method1();
         pagong.method3();
-        pagong.method4();
+//        pagong.method4();
     }
 
 }

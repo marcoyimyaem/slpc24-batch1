@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DBSample",
+            "request": "launch",
+            "mainClass": "DBSample",
+            "projectName": "slpc24-batch1_caaf9ce2"
+        },
+        {
+            "type": "java",
             "name": "InheritanceL",
             "request": "launch",
             "mainClass": "chapter5.topic1.InheritanceL",
